@@ -105,7 +105,7 @@
 </head>
 <body>
     <h2 style="font-family:sans-serif;">Please enter date of birth</h2>
-    <h3 style="font-family:sans-serif;"> </h3>
+    <h3 style="font-family:sans-serif;"> </h3>
     <button style="margin-bottom:20px;" onclick="finallyDone()">Submit</button>
     <div id="slot-machine">
         <div id="slot-screen">
@@ -125,7 +125,7 @@
 let nrSpins = 0;
 function animationRun(){
     nrSpins++;
-    document.querySelector("h3").innerText=" ";
+    document.querySelector("h3").innerText=" ";
     document.getElementById("slot-lever").classList.add("lever-animate");
     numberSpin()
     setTimeout(() => {
